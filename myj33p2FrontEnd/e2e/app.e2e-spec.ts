@@ -9,6 +9,6 @@ describe('myj33p2-front-end App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('Welcome to myj33p');
   });
 });
